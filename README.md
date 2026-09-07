@@ -1,4 +1,4 @@
-#### Taikon
+## Taikon
 
 **Taikon** is a PS4 GPU emulator which is in a PS4 emulator.
 You can also use Taikon in you own project.
@@ -63,4 +63,4 @@ You can also use Taikon in you own project.
 
 This version of Taikon is in v0.0.1-pre-alpha
 
-AS IS UNTIL THE DAY YOU ARE SEEING THIS THIS IS THE **FIRST VERSION**IN THE FUTURE WE WILL ADDMOREVERSIONS
+AS IS UNTIL THE DAY YOU ARE SEEING THIS THIS IS THE **FIRST VERSION**IN THE FUTURE WE WILL ADD MORE VERSIONS
