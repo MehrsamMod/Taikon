@@ -1,7 +1,7 @@
-## Taikon
+# Taikon
 
-**Taikon** is a PS4 GPU emulator which is in a PS4 emulator.
-You can also use Taikon in you own project.
+**Taikon** is a GPU emulator for the PS4, Which is in a PS4(not yet).
+You can also use Taikon in your own project.
 
 ## Features
 
@@ -64,3 +64,14 @@ You can also use Taikon in you own project.
 This version of Taikon is in v0.0.1-pre-alpha
 
 AS IS UNTIL THE DAY YOU ARE SEEING THIS THIS IS THE **FIRST VERSION** IN THE FUTURE WE WILL ADD MORE VERSIONS
+
+## PS4 Emulator progress
+
+I(MehrsamMod) haven't made the emulator yet.
+I'm working on **Taikon** and affter i finish Taikon i will start makeing the Emulator.
+
+## Questions?
+
+**Can i use Taikon in my PS4 emulator right now?** No not yet, i'm still developing Taikon. I will release the v0.0.1 version affter im done.
+**What if i'm a gamer?** As i said i will finish Taikon and make the emulator. If you want to play PS4 games Check out <a href="https://github.com/shadps4/shadps4">ShadPS4</a>.
+**How big is Taikon?** Well its ~22MB for now. It will get **Bigger** and **Smaller**.
