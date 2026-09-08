@@ -1,7 +1,6 @@
 #pragma once
 
 #include <vulkan/vulkan.h>
-
 #include <cstdint>
 #include <vector>
 
@@ -20,21 +19,26 @@ public:
     Swapchain(const Swapchain&) = delete;
     Swapchain& operator=(const Swapchain&) = delete;
 
-    bool Create(VkPhysicalDevice physical_device,
-                VkDevice device,
-                VkSurfaceKHR surface,
-                uint32_t width,
-                uint32_t height);
+    bool Create(
+        VkPhysicalDevice* physical_device,
+        VkDevice* device,
+        VkSurfaceKHR* surface,
+        uint32_t* width,
+        uint32_t* height);
 
     void Destroy();
 
-    bool Recreate(uint32_t width, uint32_t height);
+    bool Recreate(
+        uint32_t* width,
+        uint32_t* height);
 
-    bool AcquireNextImage(VkSemaphore image_available,
-                          VkFence fence = VK_NULL_HANDLE);
+    bool AcquireNextImage(
+        VkSemaphore* image_available,
+        VkFence* fence = nullptr);
 
-    bool Present(VkQueue present_queue,
-                 VkSemaphore render_finished);
+    bool Present(
+        VkQueue* present_queue,
+        VkSemaphore* render_finished);
 
     VkSwapchainKHR Handle() const {
         return swapchain_;
@@ -77,9 +81,10 @@ public:
 private:
     bool FindQueueFamilies();
 
-    bool CreateSwapchain(uint32_t width,
-                         uint32_t height,
-                         VkSwapchainKHR old_swapchain);
+    bool CreateSwapchain(
+        uint32_t* width,
+        uint32_t* height,
+        VkSwapchainKHR* old_swapchain);
 
     bool CreateImageViews();
 
@@ -93,6 +98,7 @@ private:
     VkSwapchainKHR swapchain_ = VK_NULL_HANDLE;
 
     VkFormat format_ = VK_FORMAT_UNDEFINED;
+
     VkColorSpaceKHR color_space_ =
         VK_COLOR_SPACE_SRGB_NONLINEAR_KHR;
 
