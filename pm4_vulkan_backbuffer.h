@@ -19,11 +19,13 @@ public:
         uint32_t graphicsQueueFamily,
         VkFormat colorFormat,
         VkExtent2D extent,
-        VkSampleCountFlagBits samples = VK_SAMPLE_COUNT_1_BIT);
+        VkSampleCountFlagBits samples =
+            VK_SAMPLE_COUNT_1_BIT);
 
     void Destroy();
 
     bool BeginFrame();
+
     bool BeginRendering(
         bool clearColor = true,
         bool clearDepth = true);
@@ -59,10 +61,8 @@ private:
     bool CreateColorImage();
     bool CreateDepthImage();
     bool CreateImageViews();
-
     bool CreateRenderPass();
     bool CreateFramebuffer();
-
     bool CreateCommandPool();
     bool CreateCommandBuffer();
 
