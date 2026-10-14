@@ -1,3 +1,13 @@
+# DISLAMER
+
+Taikon will be **EOL at November 30 2026** that means:
+
+- No new updates
+- Archived
+- And it will be never finished
+
+Goodbye Taikon👋
+
 # Taikon
 
 **Taikon** is a GPU emulator for the PS4, Which is in a PS4 emulator(not yet).<br>
