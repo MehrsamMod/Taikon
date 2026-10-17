@@ -1,6 +1,6 @@
 # DISLAMER
 
-Taikon will be **EOL at November 30 2026** that means:
+Taikon will be **EOL at October 17 2026** that means:
 
 - No new updates
 - Archived
